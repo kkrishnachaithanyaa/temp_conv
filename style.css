@@ -1,0 +1,51 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #0F2620, #0F4B3B);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 5% auto;
+  padding: 2rem;
+  background-color: #045F47;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+h1 {
+  color: #FFD700; /* Gold */
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  width: 80%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #COPPER;
+  border-radius: 8px;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.conversion-options {
+  margin: 10px 0;
+  color: #FFD700; /* Gold */
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#result {
+  margin-top: 20px;
+  background-color: #fff;
+  color: #0F2620;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+}
